@@ -1,13 +1,13 @@
 def substract(num1, numb2):
     difference = num1 - num2
-    return(difference)
+    return difference
 
 num1 = int(input('Give me a number'))
 num2 = int(input('Give e another number'))
 print(substract(num1, num2), '\n')
 
 def substract_easy_way(num1, num2):
-    return(num1 - num2)
+    return num1 - num2
 
 num1 = int(input('Give me a number'))
 num2 = int(input('Give me another number'))
@@ -21,7 +21,7 @@ enter_your_name()
 
 def getName():
     Name = input('What is your name? ')
-    return(Name)
+    return Name
 
 def greet():
     print("Welcome",getName())
