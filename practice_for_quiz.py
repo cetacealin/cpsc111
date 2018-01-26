@@ -12,7 +12,7 @@ def finding_square_and_cube():
     N = int(input('Giev me a number'))
     S = N * N
     C = S * N
-    print(S,C)
+    print(S, C)
 
 finding_square_and_cube()
 
