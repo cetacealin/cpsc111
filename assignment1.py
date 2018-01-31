@@ -5,24 +5,24 @@
 # Task: Assignment #1 
 # Purpose: Solving simple functions ___________________
 
-def learning():
-    name = input('What is your name?')
+def learning(): #This is a function use to ask for user's information and then print the information 
+    name = input('What is your name?\n')
     program = input('What programming language are you learning?\n')
-    print('Today, I found out that',name,'is learning a programming language called',program,'\n')
+    print('Today, I found out that',name,'is learning a programming language called',program + '.' + '\n')
 
 learning()
 
-def totalProfit():
-    juice_cost_price = int(input('Enter the cost price of the juice\n'))
-    juice_sale_price = int(input('Enter the sale price of the juice\n'))
-    cans_sold = int(input('Enter the number of the cans sold\n'))
+def totalProfit(): #This is a function designed to calculate the toatal profit from selling juice
+    juice_cost_price = int(input('Enter the cost price of the juice,\n'))
+    juice_sale_price = int(input('Enter the sale price of the juice,\n'))
+    cans_sold = int(input('Enter the number of the cans sold,\n'))
     unit_profit = juice_sale_price - juice_cost_price
     total_profit = unit_profit * cans_sold
     print('The toalt profit is',total_profit)
 
 totalProfit()
 
-def getInitials():
+def getInitials(): #This function will print my initials
     print("""
 **	 ***     **        
 **      ***      **        
@@ -59,6 +59,6 @@ def to_fahrenheit(cel_temp):
 cel = get_degrees_celsius()
 fah = to_fahrenheit(cel)
 print ()
-print ("The temperature in degrees Celsius, is : ", cel, "oC")
+print ("The temperature in degrees Fahrenheit, is : ", fah, "oF")
 print ()
-print ("Thank-you for using the Celsius-Fahrenheit conversion program")
+print ("Thank-you for using the Celsius-Fahrenheit conversion program.")
