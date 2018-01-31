@@ -3,7 +3,7 @@
 # Class: CPSC 111BV
 # Date: 01/29/2018 
 # Task: Assignment #1 
-# Purpose: Solving simple functions ___________________
+# Purpose: Solving simple functions learning(), totalProfit(), and getInitials()
 
 def learning(): #This is a function use to ask for user's information and then print the information 
     name = input('What is your name?\n')
