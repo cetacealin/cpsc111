@@ -15,3 +15,20 @@ def num_es(s):#returns: #char of "e"'s in s
 word = input('enter a word: ')
 print(num_es(word))
 
+def sum_listElements(L1):
+    if L1 ==[]:
+        return 0
+    
+    return (L1[0] + sum_listElements(L1[1:]))
+
+#L1 = list(range(4))
+#print('\n')
+L1 = [5,3,-2,1,9]
+print(sum_listElements(L1))
+
+def multiplication_listElements(L1):
+    if s =='':
+        return 1
+    
+    return (L1[0] + sum_listElements(L1[1:]))
+print(multiplication_listElements(L1))
