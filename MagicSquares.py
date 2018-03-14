@@ -17,7 +17,7 @@ def main():
     output_name = input('Enter name of output file: ')
     if input_name == output_name:
         print('The name of two file cannot be the same.')
-        sys.exit()
+        sys.exit(1)
     return True
 main()
 
